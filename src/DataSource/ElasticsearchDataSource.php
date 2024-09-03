@@ -207,7 +207,7 @@ class ElasticsearchDataSource extends FilterableDataSource implements IDataSourc
 	/**
 	 * {@inheritDoc}
 	 */
-	protected function getDataSource()
+	public function getDataSource()
 	{
 		return $this->client;
 	}

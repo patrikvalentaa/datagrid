@@ -258,7 +258,7 @@ class DibiFluentDataSource extends FilterableDataSource implements IDataSource, 
 	/**
 	 * {@inheritDoc}
 	 */
-	protected function getDataSource()
+	public function getDataSource()
 	{
 		return $this->dataSource;
 	}

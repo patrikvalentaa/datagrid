@@ -299,7 +299,7 @@ class NetteDatabaseTableDataSource extends FilterableDataSource implements IData
 	/**
 	 * {@inheritDoc}
 	 */
-	protected function getDataSource()
+	public function getDataSource()
 	{
 		return $this->dataSource;
 	}

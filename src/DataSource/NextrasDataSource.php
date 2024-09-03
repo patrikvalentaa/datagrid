@@ -326,7 +326,7 @@ class NextrasDataSource extends FilterableDataSource implements IDataSource, IAg
 	/**
 	 * {@inheritDoc}
 	 */
-	protected function getDataSource()
+	public function getDataSource()
 	{
 		return $this->dataSource;
 	}
